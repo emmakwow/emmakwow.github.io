@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `ekj-ink`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://ekj.ink`
   },
   plugins: ["gatsby-plugin-postcss", "gatsby-plugin-image", "gatsby-plugin-mdx", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
     resolve: 'gatsby-source-filesystem',
