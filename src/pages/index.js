@@ -1,5 +1,6 @@
 import * as React from "react"
-import {links} from '../content/writing'
+import {writingHighlights} from '../content/writing'
+import {talks} from '../content/talks'
 
 const pageStyles = {
   color: "#232129",
@@ -14,49 +15,28 @@ const headingStyles = {
 const listStyles = {
   marginBottom: 96,
   paddingLeft: 0,
+  listStyle: 'none',
 }
 const listItemStyles = {
   fontWeight: 300,
-  fontSize: 24,
+  fontSize: 20,
   maxWidth: 560,
-  marginBottom: 30,
+  marginBottom: 12,
 }
 
 const linkStyle = {
+  // ...linkStyle,
   color: "#8954A8",
   fontWeight: "bold",
   fontSize: 16,
-  verticalAlign: "5%",
-}
-
-const docLinkStyle = {
-  ...linkStyle,
-  listStyleType: "none",
-  marginBottom: 24,
 }
 
 const descriptionStyle = {
-  color: "#232129",
+  opacity: 0.7,
   fontSize: 14,
   marginTop: 10,
   marginBottom: 0,
-  lineHeight: 1.25,
-}
-
-const badgeStyle = {
-  color: "#fff",
-  backgroundColor: "#088413",
-  border: "1px solid #088413",
-  fontSize: 11,
-  fontWeight: "bold",
-  letterSpacing: 1,
-  borderRadius: 4,
-  padding: "4px 6px",
-  display: "inline-block",
-  position: "relative",
-  top: -2,
-  marginLeft: 10,
-  lineHeight: 1,
+  // lineHeight: 1.25,
 }
 
 const IndexPage = () => {
@@ -65,22 +45,29 @@ const IndexPage = () => {
       <h1 style={headingStyles}>
         EKJ
       </h1>
+      <h2>Writing</h2>
       <ul style={listStyles}>
-        {links.map(link => (
-          <li key={link.url} style={{ ...listItemStyles, color: link.color }}>
+        {writingHighlights.map(item => (
+          <li key={item.url} style={{ ...listItemStyles}}>
             <span>
               <a
-                style={linkStyle}
-                href={link.url}
+                // style={linkStyle}
+                href={item.url}
               >
-                {link.title}
+                {item.title}
               </a>
-              {link.badge && (
-                <span style={badgeStyle} aria-label="New Badge">
-                  NEW!
-                </span>
-              )}
-              <p style={descriptionStyle}>{link.publisher}</p>
+              <p style={descriptionStyle}>{item.publisher}</p>
+            </span>
+          </li>
+        ))}
+      </ul>
+      <h2>Talks</h2>
+      <ul style={listStyles}>
+        {talks.map(item => (
+          <li key={item.length} style={{ ...listItemStyles}}>
+            <span>
+              <p>{item.title}</p>
+              <p style={descriptionStyle}>{item.institution}</p>
             </span>
           </li>
         ))}

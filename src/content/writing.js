@@ -1,4 +1,4 @@
-export const links = [
+export const writingHighlights = [
   {
     title: "Uist",
     url: "https://www.elsewhere-journal.com/blog/2022/2/7/uist ",
