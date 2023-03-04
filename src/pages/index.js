@@ -1,5 +1,5 @@
 import * as React from "react"
-import {links} from '../content/articles'
+import {links} from '../content/writing'
 
 const pageStyles = {
   color: "#232129",
@@ -59,23 +59,6 @@ const badgeStyle = {
   lineHeight: 1,
 }
 
-// const links = [
-//   {
-//     text: "Title",
-//     url: "#",
-//     description:
-//       "Lorem ipsum dolor est",
-//     color: "#E95800",
-//   },
-//   {
-//         text: "Title",
-//     url: "#",
-//     description:
-//       "Lorem ipsum dolor est",
-//     color: "#E95800",
-//   },
-// ]
-
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
@@ -88,16 +71,16 @@ const IndexPage = () => {
             <span>
               <a
                 style={linkStyle}
-                href={`${link.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
+                href={link.url}
               >
-                {link.text}
+                {link.title}
               </a>
               {link.badge && (
                 <span style={badgeStyle} aria-label="New Badge">
                   NEW!
                 </span>
               )}
-              <p style={descriptionStyle}>{link.description}</p>
+              <p style={descriptionStyle}>{link.publisher}</p>
             </span>
           </li>
         ))}
