@@ -24,13 +24,6 @@ const listItemStyles = {
   marginBottom: 12,
 }
 
-const linkStyle = {
-  // ...linkStyle,
-  color: "#8954A8",
-  fontWeight: "bold",
-  fontSize: 16,
-}
-
 const descriptionStyle = {
   opacity: 0.7,
   fontSize: 14,
