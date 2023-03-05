@@ -3,7 +3,6 @@ import {writingHighlights, talks} from '../content'
 import {space, semanticColour, typography} from '../tokens'
 
 const pageStyles = {
-  // margin: -8,
   padding: space[8],
   background: "linear-gradient(180deg, #FFB7BB 0%, #FFC8B7 100%)",
   color: semanticColour.content,
