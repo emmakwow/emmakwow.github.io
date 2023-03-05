@@ -1,5 +1,5 @@
 import * as React from "react"
-import {writingHighlights, talks} from '../content'
+import {writing, talks, curation} from '../content'
 import {space, semanticColour, typography} from '../tokens'
 
 const pageStyles = {
@@ -54,7 +54,7 @@ const IndexPage = () => {
       </h1>
       <h2 style={headingStyles}>Writing</h2>
       <ul style={listStyles}>
-        {writingHighlights.map(item => (
+        {writing.map(item => (
           <li key={item.url} style={{ ...listItemStyles}}>
             <p style={itemLeadStyles}>
               <a
@@ -67,6 +67,24 @@ const IndexPage = () => {
               </a>
             </p>
             <p style={descriptionStyle}>{item.publisher}</p>
+          </li>
+        ))}
+      </ul>
+      <h2 style={headingStyles}>Curation</h2>
+      <ul style={listStyles}>
+        {curation.map(item => (
+          <li key={item.url} style={{ ...listItemStyles}}>
+            <p style={itemLeadStyles}>
+              <a
+                style={linkStyles}
+                href={item.url}
+                target="_blank"
+                rel="noreferrer"
+              >
+                {item.title}
+              </a>
+            </p>
+            <p style={descriptionStyle}>{item.role}, {item.institution}</p>
           </li>
         ))}
       </ul>
