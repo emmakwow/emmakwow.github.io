@@ -3,7 +3,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `ekj-ink`,
+    title: `EKJ`,
     siteUrl: `https://ekj.ink`
   },
   plugins: ["gatsby-plugin-postcss", "gatsby-plugin-image", "gatsby-plugin-mdx", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
@@ -20,5 +20,13 @@ module.exports = {
       "path": "./src/pages/"
     },
     __key: "pages"
+  }, {
+    resolve: `gatsby-plugin-google-fonts`,
+    options: {
+      fonts: [
+        `open sans\:300,400,500`
+      ],
+      display: 'swap'
+    }
   }]
 };

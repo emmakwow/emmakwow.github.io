@@ -1,7 +1,7 @@
 export const writingHighlights = [
   {
     title: "Uist",
-    url: "https://www.elsewhere-journal.com/blog/2022/2/7/uist ",
+    url: "https://www.elsewhere-journal.com/blog/2022/2/7/uist",
     publisher: "Elsewhere: A Journal of Place",
   },
   {
@@ -11,7 +11,7 @@ export const writingHighlights = [
   },
   {
     title: "Jonny Briggs: Beyond the Frame ",
-    url: "https://www.lessenzialestudiojournal.com/store/",
+    url: "https://www.lessenzialestudiojournal.com/store/#!/LEssenziale-Studio-Vol-04/p/377051852/category=0",
     publisher: "L'Essenziale Studio Journal",
   },
   {

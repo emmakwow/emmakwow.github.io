@@ -1,19 +1,21 @@
 import * as React from "react"
-import {writingHighlights} from '../content/writing'
-import {talks} from '../content/talks'
+import {writingHighlights, talks} from '../content'
+import {space, semanticColour} from '../tokens'
 
 const pageStyles = {
-  color: "#232129",
-  padding: 96,
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
+  // margin: -8,
+  color: semanticColour.content,
+  background: semanticColour.background,
+  padding: space[11],
+  fontFamily: "Open Sans, sans-serif, serif",
 }
 const headingStyles = {
   marginTop: 0,
-  marginBottom: 64,
+  marginBottom: space[16],
   maxWidth: 320,
 }
 const listStyles = {
-  marginBottom: 96,
+  marginBottom: 36,
   paddingLeft: 0,
   listStyle: 'none',
 }
@@ -23,9 +25,12 @@ const listItemStyles = {
   maxWidth: 560,
   marginBottom: 12,
 }
+const linkStyles = {
+  color: semanticColour.content,
+}
 
 const descriptionStyle = {
-  opacity: 0.7,
+  color: semanticColour.contentAlt,
   fontSize: 14,
   marginTop: 10,
   marginBottom: 0,
@@ -44,8 +49,9 @@ const IndexPage = () => {
           <li key={item.url} style={{ ...listItemStyles}}>
             <span>
               <a
-                // style={linkStyle}
+                style={linkStyles}
                 href={item.url}
+                target="_blank"
               >
                 {item.title}
               </a>
