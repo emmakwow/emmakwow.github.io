@@ -24,7 +24,7 @@ module.exports = {
     resolve: `gatsby-plugin-google-fonts`,
     options: {
       fonts: [
-        `open sans\:300,400,500`
+        `open sans\:400,500,600`
       ],
       display: 'swap'
     }
