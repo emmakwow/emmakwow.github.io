@@ -1,5 +1,9 @@
 export const writing = [
 	{
+		title: "Object Labels for an Exhibition of Works by Joanna Piotrowska",
+		url: "https://thepomegranatelondon.com/order",
+		publisher: "The Pomegranate London",
+	},{
 		title: "The Woman in the Bath",
 		url: "https://lucywritersplatform.com/2023/02/05/the-woman-in-the-bath-by-emma-jones/",
 		publisher: "Lucy Writers",
@@ -15,9 +19,14 @@ export const writing = [
 		publisher: "The Radavist",
 	},
 	{
-		title: "Jonny Briggs: Beyond the Frame ",
+		title: "Jonny Briggs: Beyond the Frame",
 		url: "https://www.lessenzialestudiojournal.com/store/#!/LEssenziale-Studio-Vol-04/p/377051852/category=0",
 		publisher: "L'Essenziale Studio Journal",
+	},
+	{
+		title: "Graduate Photography Online 2021: MA/MFA Selections",
+		url: "https://www.source.ie/graduate/2021/selection3_ma.php",
+		publisher: "Source Magazine",
 	},
 	{
 		title: "Photography: A  Feminist History",
