@@ -1,6 +1,6 @@
 export const talks = [
   {
-    title: "Curator led tour: Dora Maar",
+    title: "Curator-led tour: Dora Maar",
     institution: "Tate Modern",
   },
   {

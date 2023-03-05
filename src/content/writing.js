@@ -7,7 +7,7 @@ export const writingHighlights = [
   {
     title: "Photography: A  Feminist History",
     url: "https://www.hachette.co.uk/titles/emma-lewis-2/photography-%e2%80%93-a-feminist-history/9781781578049/",
-    publisher: "Octopush Publishing Group (UK), Chronicle Books (US)",
+    publisher: "Octopus Publishing Group (UK), Chronicle Books (US)",
   },
   {
     title: "Jonny Briggs: Beyond the Frame ",
