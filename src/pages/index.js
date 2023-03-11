@@ -33,7 +33,7 @@ const listStyles = {
 };
 
 const listItemStyles = {
-  maxWidth: 560,
+  maxWidth: 520,
   marginBottom: space[5],
 };
 
