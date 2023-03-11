@@ -19,15 +19,15 @@ export const semanticColour = {
 export const typography = {
   title: {
     fontFamily: "Open Sans, sans-serif, serif",
-    fontSize: 36,
+    fontSize: 42,
     fontWeight: 600,
-    lineHeight: 1.22222,
+    lineHeight: 1.25,
   },
   heading: {
     fontFamily: "Open Sans, sans-serif, serif",
     fontSize: 24,
     fontWeight: 600,
-    lineHeight: 1.333333,
+    lineHeight: 1.25,
   },
   lead: {
     fontFamily: "Open Sans, sans-serif, serif",
@@ -39,6 +39,6 @@ export const typography = {
     fontFamily: "Open Sans, sans-serif, serif",
     fontWeight: 400,
     fontSize: 16,
-    lineHeight: 1.5,
+    lineHeight: 1.7,
   },
 };

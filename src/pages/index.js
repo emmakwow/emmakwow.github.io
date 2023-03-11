@@ -19,7 +19,7 @@ const mainSectionStyles = {};
 const titleStyles = {
   ...typography.title,
   marginTop: 0,
-  marginBottom: space[8],
+  marginBottom: space[5],
 };
 
 const headingStyles = {
