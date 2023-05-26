@@ -1,5 +1,15 @@
 export const writing = [
   {
+    title: "Peckham 24",
+    url: "https://www.peckham24.com/",
+    publisher: "Peckham 24",
+  },
+  {
+    title: "Minute 9: Portrait of a Lady on Fire",
+    url: "https://www.3ammagazine.com/3am/minute-9-portrait-of-a-lady-on-fire/ ",
+    publisher: "3:AM",
+  },
+  {
     title: "Object Labels for an Exhibition of Works by Joanna Piotrowska",
     url: "https://thepomegranatelondon.com/order",
     publisher: "The Pomegranate London",
