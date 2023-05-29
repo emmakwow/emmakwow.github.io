@@ -1,6 +1,6 @@
 export const writing = [
   {
-    title: "Peckham 24",
+    title: "Body Language at Peckham 24 (2023)",
     url: "https://www.peckham24.com/",
     publisher: "Peckham 24",
   },
