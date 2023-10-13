@@ -1,5 +1,35 @@
 export const writing = [
   {
+    title: "The Jellyfish",
+    url: "https://seasidegothic.com/shop/issues/issue-8/",
+    publisher: "Seaside Gothic ",
+    medium: "Print",
+  },
+  {
+    title: "Maija Tammi: Hulda / Lilli",
+    url: "https://c4journal.com/maija-tammi-hulda-lilli/",
+    publisher: "C4 Journal",
+    medium: "Online",
+  },
+  {
+    title: "Being Looked At",
+    url: "https://www.guttermag.co.uk/",
+    publisher: "Gutter",
+    medium: "Print",
+  },
+  {
+    title: "Garry Fabian Miller 'Adore' and 'The Sea Horizon'",
+    url: "https://www.source.ie/archive/issue111/is111contents.php",
+    publisher: "Source Magazine",
+    medium: "Print",
+  },
+  {
+    title: "Izabela Jurcewicz: Body as a Negative: Sensations of Return",
+    url: "https://c4journal.com/izabela-jurcewicz-body-as-a-negative-sensations-of-return/",
+    publisher: "C4 Journal",
+    medium: "Online",
+  },
+  {
     title: "Body Language at Peckham 24 (2023)",
     url: "https://www.peckham24.com/",
     publisher: "Peckham 24",
@@ -53,6 +83,10 @@ export const writing = [
 ];
 
 export const talks = [
+  {
+    title: "In conversation with artist Feiyi Wen",
+    institution: "SERCHIA Gallery",
+  },
   {
     title: "Reading: The Pomegranate London launch party",
     institution: "The Pomegranate London",

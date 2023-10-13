@@ -1,5 +1,5 @@
 import * as React from "react";
-import { writing, talks, curation } from "../content";
+import { writing, talks } from "../content";
 import { space, semanticColour, typography } from "../tokens";
 
 const pageStyles = {
@@ -60,25 +60,18 @@ const IndexPage = () => {
       <section style={sidebarStyles}>
         <h1 style={titleStyles}>EKJ</h1>
         <p>
-          I'm a non-fiction and arts writer with a focus on photography. I’ve
-          worked with contemporary artists on profiles of their work and am a
-          contributing reviewer of photobooks with <i>C4 Journal</i>.
-          Occasionally I write more personal essays, often taking art or
-          literature as a starting point.
+          I'm Emma and I'm an essayist. Published work includes reviews, art
+          writing, travel writing and memoir. Occasionally, I try to blend
+          different elements from all of these. In September 2023, I was writer
+          in residence at Marchmont House in Duns, Scottish Borders.
         </p>
         <p>
-          I like to collaborate. You can contact me by{" "}
+          My writing is often led by an interest in a particular artist's
+          practice or work of art, and I enjoy collaborating on new projects. If
+          you're an artist, or a gallery looking for some copywriting work (or
+          if you just want to chat!) you can{" "}
           <a href="mailto:ekj.ink@gmail.com" style={linkStyles}>
-            email
-          </a>{" "}
-          or (for my sins) on{" "}
-          <a
-            href="https://twitter.com/PerceptiveHow"
-            target="_blank"
-            rel="noreferrer"
-            style={linkStyles}
-          >
-            twitter
+            contact me by email here
           </a>
           .
         </p>
@@ -102,7 +95,7 @@ const IndexPage = () => {
             </li>
           ))}
         </ul>
-        <h2 style={headingStyles}>Curation</h2>
+        {/*<h2 style={headingStyles}>Curation</h2>
         <ul style={listStyles}>
           {curation.map((item) => (
             <li key={item.url} style={{ ...listItemStyles }}>
@@ -121,7 +114,7 @@ const IndexPage = () => {
               </p>
             </li>
           ))}
-        </ul>
+        </ul>*/}
         <h2 style={headingStyles}>Talks</h2>
         <ul style={listStyles}>
           {talks.map((item) => (
