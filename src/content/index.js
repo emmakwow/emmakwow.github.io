@@ -1,5 +1,11 @@
 export const writing = [
   {
+    title: "Meet the British Chairmakers Revitalising an Engandered Craft",
+    url: "https://resonate.travel/meet-the-british-chairmakers-revitalising-an-endangered-craft/)",
+    publisher: "Resonate Travel",
+    medium: "Digital",
+  },
+  {
     title: "The Jellyfish",
     url: "https://seasidegothic.com/shop/issues/issue-8/",
     publisher: "Seaside Gothic ",
