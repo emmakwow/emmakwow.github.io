@@ -1,150 +1,85 @@
-export const writing = [
+export const essays = [
   {
-    title: "Meet the British Chairmakers Revitalising an Engandered Craft",
-    url: "https://resonate.travel/meet-the-british-chairmakers-revitalising-an-endangered-craft/)",
-    publisher: "Resonate Travel",
-    medium: "Digital",
-  },
-  {
-    title: "The Jellyfish",
-    url: "https://seasidegothic.com/shop/issues/issue-8/",
-    publisher: "Seaside Gothic ",
-    medium: "Print",
-  },
-  {
-    title: "Maija Tammi: Hulda / Lilli",
-    url: "https://c4journal.com/maija-tammi-hulda-lilli/",
-    publisher: "C4 Journal",
-    medium: "Online",
-  },
-  {
-    title: "Being Looked At",
-    url: "https://www.guttermag.co.uk/",
-    publisher: "Gutter",
-    medium: "Print",
-  },
-  {
-    title: "Garry Fabian Miller 'Adore' and 'The Sea Horizon'",
-    url: "https://www.source.ie/archive/issue111/is111contents.php",
-    publisher: "Source Magazine",
-    medium: "Print",
-  },
-  {
-    title: "Izabela Jurcewicz: Body as a Negative: Sensations of Return",
-    url: "https://c4journal.com/izabela-jurcewicz-body-as-a-negative-sensations-of-return/",
-    publisher: "C4 Journal",
-    medium: "Online",
-  },
-  {
-    title: "Body Language at Peckham 24 (2023)",
-    url: "https://www.peckham24.com/",
-    publisher: "Peckham 24",
-  },
-  {
-    title: "Minute 9: Portrait of a Lady on Fire",
-    url: "https://www.3ammagazine.com/3am/minute-9-portrait-of-a-lady-on-fire/ ",
-    publisher: "3:AM",
-  },
-  {
-    title: "Object Labels for an Exhibition of Works by Joanna Piotrowska",
-    url: "https://thepomegranatelondon.com/order",
-    publisher: "The Pomegranate London",
-  },
-  {
-    title: "The Woman in the Bath",
-    url: "https://lucywritersplatform.com/2023/02/05/the-woman-in-the-bath-by-emma-jones/",
-    publisher: "Lucy Writers",
-  },
-  {
-    title: "Liz Orton: Every Body is an Archive",
-    url: "https://c4journal.com/liz-orton-every-body-is-an-archive/",
-    publisher: "C4 Journal",
-  },
-  {
-    title:
-      "Psychic Gasoline: Bikepacking and Zen and the Art of Motorcyle Maitenance",
-    url: "https://theradavist.com/zen-and-bikepacking/",
-    publisher: "The Radavist",
-  },
-  {
-    title: "Jonny Briggs: Beyond the Frame",
-    url: "https://www.lessenzialestudiojournal.com/store/#!/LEssenziale-Studio-Vol-04/p/377051852/category=0",
-    publisher: "L'Essenziale Studio Journal",
-  },
-  {
-    title: "Graduate Photography Online 2021: MA/MFA Selections",
-    url: "https://www.source.ie/graduate/2021/selection3_ma.php",
-    publisher: "Source Magazine",
-  },
-  {
-    title: "Photography: A  Feminist History",
-    url: "https://www.hachette.co.uk/titles/emma-lewis-2/photography-%e2%80%93-a-feminist-history/9781781578049/",
-    publisher: "Octopus Publishing Group (UK), Chronicle Books (US)",
-  },
-  {
-    title: "Uist",
-    url: "https://www.elsewhere-journal.com/blog/2022/2/7/uist",
-    publisher: "Elsewhere: A Journal of Place",
-  },
+    title: "What happens at 7:AM in Kelso",
+    titleUrl: "https://www.offassignment.com/witching-hour/emma-jones",
+    source: "OffAssignment",
+  }, {
+    title: "Exploring the Beaulieu River",
+    source: "The New Forest National Park Authority, ArtfulScribe and the Countryside Education Trust",
+  }, {
+    title: "Riding bikes with Alice Connew",
+    source: "JOYRIDERS",
+    sourceUrl: "https://www.gloria-books.com/books/p/joyriders",
+  }, {
+    title: "Dissecting YouTube Get Ready With Me Videos and the work of Juno Calypso",
+    titleUrl: "https://off-chance.com/articles/get-ready-with-me",
+    source: "OffChance Magazine",
+  }, {
+    title: "Being looked at in a BDSM relationship and the work of Louise Bourgeois",
+    source: "Gutter #29",
+    sourceUrl: "https://www.guttermag.co.uk/getgutter/p/gutter-28",
+  }, {
+    title: "Baths, bodies and the art of Ithell Colquhoun",
+    titleUrl: "https://lucywritersplatform.com/2023/02/05/the-woman-in-the-bath-by-emma-jones/",
+    source: "Lucy Writers Platform ",
+  }, {
+    title: "Bikepacking and Zen and the Art of Motorcycle Maintenance",
+    titleUrl: "https://theradavist.com/zen-and-bikepacking",
+    source: "The Radavist",
+  }
 ];
+
+export const criticism = [
+  {
+    title: "Reflections on Sam Laughlin’s series Spinning Away",
+    titleUrl: "https://photomonitor.co.uk/experiment/spinning-away/",
+    source: "Photomonitor",
+  }, {
+    title: "Reviewing Garry Fabian Miller",
+    source: "Source Magazine",
+    sourceUrl: "https://www.source.ie/index.php",
+  }, {
+    title: "Looking at minute 9 of Portrait of a Lady on Fire",
+    titleUrl: "https://www.3ammagazine.com/3am/minute-9-portrait-of-a-lady-on-fire/",
+    source: "3:AM",
+  }, {
+    title: "BODY LANGUAGE",
+    source: "Peckham 24",
+    sourceUrl: "https://www.peckham24.com/",
+  }, {
+    title: "Reviewing Maija Tammi’s photobook Hulda // Lilli",
+    titleUrl: "https://c4journal.com/maija-tammi-hulda-lilli/",
+    source: "C4 Journal",
+  },
+]
 
 export const talks = [
   {
-    title: "In conversation with artist Feiyi Wen",
-    institution: "SERCHIA Gallery",
-  },
-  {
-    title: "Reading: The Pomegranate London launch party",
-    institution: "The Pomegranate London",
-  },
-  {
-    title:
-      "Conference paper presentation:  Photographing an Imagined Place, Lieko Shiga's 'Spiral Shore'",
-    institution: "Women Talk Place",
-  },
-  {
-    title: "In conversation with artist Amak Mahmoodian",
-    institution: "Offprint London",
-  },
-  {
-    title: "In conversation with poet Grace Nichols",
-    institution: "Uniqlo Tate Lates: Dora Maar",
-  },
-  {
-    title: "Curator-led tour: Dora Maar",
-    institution: "Tate Modern",
-  },
+    title: "Interview with Anna Fox",
+    source: "Source Magazine",
+    sourceUrl: "https://www.source.ie/index.php",
+  }, {
+    title: "Interview with Charmaine Toh",
+    source: "Source Magazine",
+    sourceUrl: "https://www.source.ie/index.php",
+  }, {
+    title: "Talk with Feiyi Wen",
+    source: "Serchia Gallery",
+    sourceUrl: "https://serchiagallery.square.site/",
+  }, {
+    title: "Interview with Amak Mahmoodian",
+    source: "OFFPRINT festival at Tate Modern",
+    sourceUrl: "https://www.tate.org.uk/visit/tate-modern",
+  }, {
+    title: "Interview with Grace Nichols",
+    source: "Tate Lates at Tate Modern",
+    sourceUrl: "https://www.tate.org.uk/visit/tate-modern",
+  }
 ];
 
-export const curation = [
-  {
-    title: "Šejla Kamerić",
-    url: "https://www.tate.org.uk/visit/tate-modern/display/artist-and-society/bosnian-girl",
-    institution: "Tate Modern",
-    role: "Curator",
-  },
-  {
-    title: "Ernest Cole",
-    url: "https://www.tate.org.uk/visit/tate-modern/display/artist-and-society/ernest-cole",
-    institution: "Tate Modern",
-    role: "Curator",
-  },
-  {
-    title: "Graciela Iturbide",
-    url: "https://www.tate.org.uk/visit/tate-modern/display/graciela-iturbide",
-    institution: "Tate Modern",
-    role: "Assistant Curator",
-  },
-  {
-    title: "Dora Maar",
-    url: "https://www.tate.org.uk/whats-on/tate-modern/dora-maar",
-    institution: "Tate Modern",
-    role: "Assistant Curator",
-  },
-  {
-    title: "Shape of Light: 100 Years of Photography and Abstract Art",
-    url: "https://www.tate.org.uk/whats-on/tate-modern/shape-light",
-    institution: "Tate Modern",
-    role: "Assistant Curator",
-  },
-];
+  // {
+  //   title: "",
+  //   titleUrl: "",
+  //   source: "",
+  //   sourceUrl: "",
+  // }
