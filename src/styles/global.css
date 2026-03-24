@@ -1,91 +1,109 @@
-*, *::before, *::after {
-  box-sizing: border-box;
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  font-family: 'Open Sans', sans-serif;
-  color: #191820;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    color: #191820;
+    background: linear-gradient(180deg, #ffb9b7 0%, #ffc8b7 100%);
+    min-height: 100vh;
 }
 
 main {
-  padding: 32px;
-  background: linear-gradient(180deg, #FFB9B7 0%, #FFC8B7 100%);
-  min-height: 100vh;
+    padding: clamp(24px, 6vw, 80px);
+    max-width: 640px;
 }
 
 /* ── Typography ── */
 
 h1 {
-  font-size: 36px;
-  font-weight: 600;
-  line-height: 1.25;
-  margin-top: 0;
-  margin-bottom: 20px;
+    font-size: clamp(28px, 8vw, 38px);
+    font-weight: 600;
+    line-height: 1.25;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 h2 {
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 1.25;
-  margin-top: 40px;
-  margin-bottom: 0;
+    font-size: clamp(18px, 5vw, 24px);
+    font-weight: 600;
+    line-height: 1.25;
+    margin-top: 40px;
+    margin-bottom: 0;
 }
 
 p {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.7;
-  margin: 0 0 1em;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.7;
+    margin: 0 0 1em;
 }
 
 a {
-  color: #191820;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 3px;
+    color: #191820;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+    transition: 50ms;
+}
+
+a:hover {
+    text-underline-offset: 1px;
 }
 
 /* ── Layout sections ── */
 
-.intro,
 .bio {
-  max-width: 640px;
+    margin-top: 48px;
+}
+
+.source {
+    color: #413f4b;
+}
+
+.source a {
+    color: #413f4b;
 }
 
 /* ── Quotes ── */
 
 blockquote {
-  margin: 0;
-  max-width: 640px;
+    margin: 0;
 }
 
 blockquote p {
-  margin-top: 48px;
-  margin-bottom: 48px;
+    margin-top: 48px;
+    margin-bottom: 48px;
 }
 
 blockquote a {
-  font-size: 32px;
-  font-weight: 600;
-  line-height: 1.25;
-  text-decoration: none;
-  color: #191820;
+    font-size: clamp(28px, 6vw, 30px);
+    font-weight: 600;
+    line-height: 1.25;
+    text-decoration: none;
+    color: #191820;
 }
 
 /* ── Work lists ── */
 
+.work {
+    margin-top: 48px;
+}
+
 ul {
-  list-style: none;
-  padding-left: 0;
-  margin: 0;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
 }
 
 li {
-  max-width: 520px;
-  margin-bottom: 20px;
+    max-width: 520px;
+    margin-bottom: 20px;
 }
 
 li p {
-  line-height: 1.5;
-  margin: 0;
+    line-height: 1.5;
+    margin: 0;
 }

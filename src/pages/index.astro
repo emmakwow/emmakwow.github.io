@@ -113,7 +113,7 @@ import talks from "../content/talks.json";
                 </p>
             </section>
 
-            <section>
+            <section class="work">
                 <h2>Essays</h2>
                 <ul>
                     {
@@ -131,18 +131,20 @@ import talks from "../content/talks.json";
                                     ) : (
                                         item.title
                                     )}
-                                    {" for "}
-                                    {item.sourceUrl ? (
-                                        <a
-                                            href={item.sourceUrl}
-                                            target="_blank"
-                                            rel="noreferrer"
-                                        >
-                                            {item.source}
-                                        </a>
-                                    ) : (
-                                        item.source
-                                    )}
+                                    <span class="source">
+                                        {" for "}
+                                        {item.sourceUrl ? (
+                                            <a
+                                                href={item.sourceUrl}
+                                                target="_blank"
+                                                rel="noreferrer"
+                                            >
+                                                {item.source}
+                                            </a>
+                                        ) : (
+                                            item.source
+                                        )}
+                                    </span>
                                 </p>
                             </li>
                         ))
@@ -166,18 +168,20 @@ import talks from "../content/talks.json";
                                     ) : (
                                         item.title
                                     )}
-                                    {" for "}
-                                    {item.sourceUrl ? (
-                                        <a
-                                            href={item.sourceUrl}
-                                            target="_blank"
-                                            rel="noreferrer"
-                                        >
-                                            {item.source}
-                                        </a>
-                                    ) : (
-                                        item.source
-                                    )}
+                                    <span class="source">
+                                        {" for "}
+                                        {item.sourceUrl ? (
+                                            <a
+                                                href={item.sourceUrl}
+                                                target="_blank"
+                                                rel="noreferrer"
+                                            >
+                                                {item.source}
+                                            </a>
+                                        ) : (
+                                            item.source
+                                        )}
+                                    </span>
                                 </p>
                             </li>
                         ))
@@ -201,18 +205,20 @@ import talks from "../content/talks.json";
                                     ) : (
                                         item.title
                                     )}
-                                    {" for "}
-                                    {item.sourceUrl ? (
-                                        <a
-                                            href={item.sourceUrl}
-                                            target="_blank"
-                                            rel="noreferrer"
-                                        >
-                                            {item.source}
-                                        </a>
-                                    ) : (
-                                        item.source
-                                    )}
+                                    <span class="source">
+                                        {" for "}
+                                        {item.sourceUrl ? (
+                                            <a
+                                                href={item.sourceUrl}
+                                                target="_blank"
+                                                rel="noreferrer"
+                                            >
+                                                {item.source}
+                                            </a>
+                                        ) : (
+                                            item.source
+                                        )}
+                                    </span>
                                 </p>
                             </li>
                         ))
