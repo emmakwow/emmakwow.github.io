@@ -1,0 +1,131 @@
+---
+import '../styles/global.css';
+import essays from '../content/essays.json';
+import criticism from '../content/criticism.json';
+import talks from '../content/talks.json';
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>EKJ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <section class="intro">
+        <h1>Emma Jones writes essays, criticism and experimental non-fiction.</h1>
+        <p>
+          She uses art as a lens to write about feminism, baths, existentialism, zen, sex, domestic
+          spaces, internet culture, voids and gestures.
+        </p>
+        <p>
+          Her nature writing examines the relationship between human and landscape, with an interest
+          in tidal spaces, mercurial creatures, rhododendrons and husbandry.
+        </p>
+        <p>
+          Her inbox is open for questions, commissions and collaborations,{' '}
+          <a href="mailto:ekj.ink@gmail.com">get in touch</a>.
+        </p>
+      </section>
+
+      <section>
+        <blockquote cite="https://photomonitor.co.uk/experiment/spinning-away/">
+          <p>
+            <a href="https://photomonitor.co.uk/experiment/spinning-away/" target="_blank" rel="noreferrer">
+              "He checked the charts fastidiously and, for one year, ran to a lunar clock."
+            </a>
+          </p>
+        </blockquote>
+        <blockquote cite="https://c4journal.com/maija-tammi-hulda-lilli/">
+          <p>
+            <a href="https://c4journal.com/maija-tammi-hulda-lilli/" target="_blank" rel="noreferrer">
+              "By chance, I started with Hulda. The chameleon. A predator."
+            </a>
+          </p>
+        </blockquote>
+        <blockquote cite="https://www.offassignment.com/witching-hour/emma-jones">
+          <p>
+            <a href="https://www.offassignment.com/witching-hour/emma-jones" target="_blank" rel="noreferrer">
+              "7 a.m. in Kelso is the smell of disinfectant and hay. It's bacon and egg sandwiches
+              from tiny food trucks. It's the animal heat rising soft from pens inside huge canvas tents."
+            </a>
+          </p>
+        </blockquote>
+        <blockquote cite="https://theradavist.com/zen-and-bikepacking">
+          <p>
+            <a href="https://theradavist.com/zen-and-bikepacking" target="_blank" rel="noreferrer">
+              "We're in Ljubljana airport in the early afternoon and I am sat next to a nearly
+              assembled bike and a nearly empty cardboard box."
+            </a>
+          </p>
+        </blockquote>
+      </section>
+
+      <section class="bio">
+        <p>
+          Emma has been writer in residence at the Jan Machoski Foundation, the Hugo Burge Foundation
+          and with the New Forest National Park Authority. She was formerly Assistant Curator of
+          Photography at Tate Modern and has been long-listed for The Observer Anthony Burgess Prize
+          in Arts Journalism. In 2025 Emma won DYCP funding from Arts Council England.
+        </p>
+      </section>
+
+      <section>
+        <h2>Essays</h2>
+        <ul>
+          {essays.map((item) => (
+            <li>
+              <p>
+                {item.titleUrl
+                  ? <a href={item.titleUrl} target="_blank" rel="noreferrer">{item.title}</a>
+                  : item.title}
+                {' for '}
+                {item.sourceUrl
+                  ? <a href={item.sourceUrl} target="_blank" rel="noreferrer">{item.source}</a>
+                  : item.source}
+              </p>
+            </li>
+          ))}
+        </ul>
+
+        <h2>Criticism + Reviews</h2>
+        <ul>
+          {criticism.map((item) => (
+            <li>
+              <p>
+                {item.titleUrl
+                  ? <a href={item.titleUrl} target="_blank" rel="noreferrer">{item.title}</a>
+                  : item.title}
+                {' for '}
+                {item.sourceUrl
+                  ? <a href={item.sourceUrl} target="_blank" rel="noreferrer">{item.source}</a>
+                  : item.source}
+              </p>
+            </li>
+          ))}
+        </ul>
+
+        <h2>Interviews + Talks</h2>
+        <ul>
+          {talks.map((item) => (
+            <li>
+              <p>
+                {item.titleUrl
+                  ? <a href={item.titleUrl} target="_blank" rel="noreferrer">{item.title}</a>
+                  : item.title}
+                {' for '}
+                {item.sourceUrl
+                  ? <a href={item.sourceUrl} target="_blank" rel="noreferrer">{item.source}</a>
+                  : item.source}
+              </p>
+            </li>
+          ))}
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>

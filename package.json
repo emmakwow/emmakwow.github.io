@@ -1,35 +1,13 @@
 {
   "name": "ekj-ink",
+  "type": "module",
   "version": "1.0.0",
-  "private": false,
-  "description": "ekj-ink",
-  "author": "Jack Bush",
-  "keywords": [
-    "gatsby"
-  ],
   "scripts": {
-    "deploy": "gatsby build && cp ./CNAME public/ && gh-pages -d public -b main -f",
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
   },
   "dependencies": {
-    "@mdx-js/react": "^2.3.0",
-    "gatsby": "^5.7.0",
-    "gatsby-plugin-google-fonts": "^1.0.1",
-    "gatsby-plugin-image": "^3.7.0",
-    "gatsby-plugin-mdx": "^5.7.0",
-    "gatsby-plugin-postcss": "^6.7.0",
-    "gatsby-plugin-sharp": "^5.7.0",
-    "gatsby-source-filesystem": "^5.7.0",
-    "gatsby-transformer-sharp": "^5.7.0",
-    "postcss": "^8.4.21",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "gh-pages": "^5.0.0"
+    "astro": "^4.16.0"
   }
 }
