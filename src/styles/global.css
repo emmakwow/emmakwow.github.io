@@ -41,6 +41,8 @@ p {
 
 a {
   color: #191820;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
 }
 
 /* ── Layout sections ── */
