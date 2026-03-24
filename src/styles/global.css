@@ -13,7 +13,7 @@ body {
 }
 
 main {
-    padding: clamp(24px, 6vw, 80px);
+    margin: clamp(24px, 6vw, 80px);
     max-width: 640px;
 }
 
